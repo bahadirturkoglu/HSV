@@ -57,6 +57,7 @@ Cmin = min (R', G', B') +
 Δ = Cmax - Cmin +
 
 Hue(Renk) değeri için hesaplama: +
+
 image::2.png[resim 2] +
 
 Saturation(Doygunluk) değeri için hesaplama: +
@@ -183,6 +184,8 @@ image.show()
 1.RGB renk uzayındaki görüntü. +
 
 image::4.png[resim 4]
+
+2.HSV renk uzayına çevrilen görüntü. +
 
 image::5.png[resim 5]
 
