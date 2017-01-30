@@ -47,7 +47,7 @@ image::1.png[resim 1]
 
 RGB renk uzayından HSV renk uzayına geçiş yapmak için belirli formüller kullandık. Burada dikkat edilmesi gereken nokta RGB değerlerini 0-1 arasına indirilmesi gerekliliğidir. Her pikselin değeri 255 ile bölünerek normalize edildikten sonra aşağıdaki formüller ile HSV değerleri bulunabilir. +
 
-İlk olarak görüntünün piksel değerlerinde bulunan renk kodları alınır. +
+İlk olarak görüntünün piksel değerlerinde bulunan renk kodları alınır http://www.rapidtables.com/convert/color/rgb-to-hsv.htm[[1]]. +
 R' = R/255 +
 G' = G/255 +
 B' = B/255 +
@@ -70,6 +70,9 @@ Value(Parlaklık) değeri için hesaplama: +
 V = Cmax +
 
 == 5)  Python ile HSV Renk Uzay’ına Çevirme Uygulaması
+
+http://stackoverflow.com/questions/3018313/algorithm-to-convert-rgb-to-hsv-and-hsv-to-rgb-in-range-0-255-for-both[[2]] 
+http://www.cescript.com/2012/07/rgb-hsv-uzay-donusumu.html[[3]]
 
 [source,python]
 ---------------------------------------------------------------------
