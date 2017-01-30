@@ -1,1 +1,35 @@
 = RGB renk uzayından HSV renk uzayına çevirme
+== İçindekiler 
+. İçindekiler
+. Versiyon Geçmişi
+. Giriş
+. HSV Renk Uzayı
+.. HSV Modelleme
+. Python ile HSV Renk Uzayı’na Çevirme Uygulaması
+. Uygulama Görüntüleri
+. Referanslar
+
+== 1) İçindekiler
+|===
+|Tarih|Değişiklik|Kişi
+
+|05.01.2017
+|
+
+
+|Gönül Toktay
+|05.01.2017
+ 
+|
+|M.Sıla Genç
+
+|19.01.2017
+
+|Düzenleme
+|Merve Tafralı
+
+|===
+
+== 3) Giriş
+
+Bu bölümde RGB renk uzayında tanımlanmış bir görüntünün nasıl HSV renk uzayına dönüşümü anlatılmıştır. RGB renk uzayı ile HSV renk uzayı arasındaki farklar ve RGB renk uzayındaki bir görüntünün HSV renk uzayına nasıl aktarıldığı ve modellemenin nasıl yapıldığı anlatılmıştır. Örnek olarak Python dili ile bir uygulama geliştirilmiştir.
